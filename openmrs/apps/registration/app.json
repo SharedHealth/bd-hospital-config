@@ -24,7 +24,6 @@
         "autoCompleteFields": [
             "familyName"
         ],
-        "prepopulateFields" : ["Division", "Zilla", "Upazilla"],
         "defaultIdentifierPrefix": "BDH",
         "defaultVisitType": "outpatient",
         "searchByIdForwardUrl": "/patient/{{patientUuid}}",
