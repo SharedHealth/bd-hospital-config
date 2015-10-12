@@ -7,7 +7,7 @@
             "patientInformation": {
                 "title" : "Patient Information",
                 "name" : "patientInformation",
-                "patientAttributes" : ["Health ID"],
+                "patientAttributes" : ["healthId"],
                 "displayOrder": 0
             },
             "diagnosis": {
