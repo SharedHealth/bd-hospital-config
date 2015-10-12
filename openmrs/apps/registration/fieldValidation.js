@@ -28,8 +28,9 @@ var containTwoSetsOfThreeConsecutiveDigits = function(healthId) {
 	return matches && matches.length > 1;
 }
 
+
 customValidator = {
-	"Health ID": {
+	"healthId": {
 		method: function(name, value, attributeDetails) {
 			if (containFourConsecutiveDigits(value)) {
 				return false;
