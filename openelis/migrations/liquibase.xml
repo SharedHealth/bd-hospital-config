@@ -43,4 +43,71 @@
         </sql>
     </changeSet>
 
+    <changeSet id='201510301411' author='Neha' context='setup'>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from health_center where name='CHP';
+            </sqlCheck>
+        </preConditions>
+        <comment>Deactivation bahmni default health centers CHP</comment>
+        <sql>
+            update health_center set active='f' where name = 'CHP';
+        </sql>
+    </changeSet>
+    <changeSet id='201510301412' author='Neha' context='setup'>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from health_center where name='GAN';
+            </sqlCheck>
+        </preConditions>
+        <comment>Deactivation bahmni default health centers GAN</comment>
+        <sql>
+            update health_center set active='f' where name = 'GAN';
+        </sql>
+    </changeSet>
+    <changeSet id='201510301413' author='Neha' context='setup'>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from health_center where name='SEM';
+            </sqlCheck>
+        </preConditions>
+        <comment>Deactivation bahmni default health centers SEM</comment>
+        <sql>
+            update health_center set active='f' where name = 'SEM';
+        </sql>
+    </changeSet>
+    <changeSet id='201510301414' author='Neha' context='setup'>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from health_center where name='SIV';
+            </sqlCheck>
+        </preConditions>
+        <comment>Deactivation bahmni default health centers SIV</comment>
+        <sql>
+            update health_center set active='f' where name = 'SIV';
+        </sql>
+    </changeSet>
+    <changeSet id='201510301415' author='Neha' context='setup'>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from health_center where name='BAH';
+            </sqlCheck>
+        </preConditions>
+        <comment>Deactivation bahmni default health centers BAH</comment>
+        <sql>
+            update health_center set active='f' where name = 'BAH';
+        </sql>
+    </changeSet>
+    <changeSet id='201510301416' author='Neha' context='setup'>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from health_center where name='BAM';
+            </sqlCheck>
+        </preConditions>
+        <comment>Deactivation bahmni default health centers BAM</comment>
+        <sql>
+            update health_center set active='f' where name = 'BAM';
+        </sql>
+    </changeSet>
+
 </databaseChangeLog>
