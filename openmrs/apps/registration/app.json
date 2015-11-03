@@ -58,8 +58,8 @@
                 "errorMessage" : "Please enter a valid HID"
             },
             "address1" : {
-                "pattern" : "[a-zA-Z0-9]{3}", 
-                "errorMessage" : "Should contain 3 characters"
+                "pattern" : "^(\\s*[^\\s]\\s*){3,255}$",
+                "errorMessage" : "Should have minimum 3 characters"
             }
         },
         "patientSearch": {
