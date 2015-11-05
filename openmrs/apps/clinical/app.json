@@ -82,6 +82,9 @@
                     "autocomplete" : true,
                     "required": true
                 },
+                "Immunization Incident Group": {
+                    "allowAddMore": true
+                },
                 "Route of Administration" : {
                     "autocomplete" : true
                 },
