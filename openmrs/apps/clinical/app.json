@@ -99,7 +99,7 @@
                 },
                 "Procedure Diagnostic Test" : {
                     "autocomplete" : true,
-                    "answersConceptName" : "Diagnostic Test"
+                    "answersConceptName" : "Procedure Diagnostic Test"
                 }
             },
         "visitPage": {
