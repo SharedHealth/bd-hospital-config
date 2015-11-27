@@ -42,7 +42,7 @@
         },
         "fieldValidation": {
             "familyName" : {
-                "pattern" : "^([A-Za-z]*)$",
+                "pattern" : "^([A-Za-z]{1,25})$",
                 "errorMessage" : "Family name should only have alphabets, not even space"
             },
             "nationalId": {
@@ -64,6 +64,18 @@
             "address1" : {
                 "pattern" : "^(\\s*[^\\s]\\s*){3,255}$",
                 "errorMessage" : "Should have minimum 3 characters"
+            },
+            "householdCode" : {
+                "pattern" : "^\\d+$",
+                "errorMessage" : "Should contain only digits, not even space"
+            },
+            "fatherName" : {
+                "pattern" : "(^([a-zA-Z\\.\\s]{1,100}) ([a-zA-Z]{0,25})$)|(^([a-zA-Z\\.]{1,100})$)",
+                "errorMessage" : "Should contain only alphabets, dots and spaces"
+            },
+            "spouseName" : {
+                "pattern" : "(^([a-zA-Z\\.\\s]{1,100}) ([a-zA-Z]{0,25})$)|(^([a-zA-Z\\.]{1,100})$)",
+                "errorMessage" : "Should contain only alphabets, dots and spaces"
             }
         },
         "patientSearch": {
