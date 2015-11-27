@@ -41,6 +41,10 @@
             }
         },
         "fieldValidation": {
+            "givenName" : {
+                "pattern" : "^[a-zA-Z \\-\\.]{1,50}$",
+                "errorMessage" : "Given name should only have alphabets, \"-\", \".\" and spaces."
+            },
             "familyName" : {
                 "pattern" : "^([A-Za-z]{1,25})$",
                 "errorMessage" : "Family name should only have alphabets, not even space"
@@ -66,7 +70,7 @@
                 "errorMessage" : "Should have minimum 3 characters"
             },
             "householdCode" : {
-                "pattern" : "^\\d+$",
+                "pattern" : "^\\d{1,50}$",
                 "errorMessage" : "Should contain only digits, not even space"
             },
             "fatherName" : {
