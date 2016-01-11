@@ -42,6 +42,19 @@
             },
             "Coded3": {
                 "multiSelect": true
+            },
+            "Procedure Type": {
+                "autocomplete" : true,
+                "required" : true,
+                "answersConceptName" : "Procedure Type"
+            },
+            "Procedure Diagnosis" : {
+                "autocomplete" : true,
+                "answersConceptName" : "Diagnosis Answers"
+            },
+            "Procedure Diagnostic Test" : {
+                "autocomplete" : true,
+                "answersConceptName" : "Procedure Diagnostic Test"
             }
         }
     }
