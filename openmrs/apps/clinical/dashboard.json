@@ -109,6 +109,18 @@
                 },
                 "displayOrder": 7
             },
+            "procedureOrders": {
+                "orderType": "Procedure Order",
+                "title": "Procedure Orders",
+                "name": "ordersControl",
+                "displayOrder": 12,
+                "dashboardParams": {
+                    "conceptNames": [
+                        "Procedure Template"
+                    ],
+                    "numberOfVisits": 4
+                }
+            },
             "vitals": {
                 "title": "Vitals",
                 "name": "vitals",
