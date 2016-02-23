@@ -27,6 +27,9 @@
     "allTreatment" : {
       "inputOptionsConfig": {
         "showDoseFractions": true,
+        "duration": {
+          "required": true
+        },
         "doseFractions": [
           "½","⅓","¼","¾","⅔"
         ]
