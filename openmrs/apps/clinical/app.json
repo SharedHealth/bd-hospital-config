@@ -39,13 +39,13 @@
         "conceptSetUI": {
                 "Condition Chief Complaint" : {
                     "answersConceptName" : "Chief Complaint Answers",
-                    "freeTextAutocomplete" : true,
+                    "autocomplete" : true,
                     "durationRequired" : false,
                     "allowAddMore" : true
                 },
                 "Condition Non-Coded Chief Complaint" : {
                     "answersConceptName" : "Chief Complaint Answers",
-                    "freeTextAutocomplete" : true,
+                    "autocomplete" : true,
                     "durationRequired" : false,
                     "allowAddMore" : true
                 },
@@ -80,7 +80,8 @@
                 },
                 "Immunization Incident Vaccine" : {
                     "autocomplete" : true,
-                    "required": true
+                    "required": true,
+                    "src": "self"
                 },
                 "Immunization Incident Group": {
                     "allowAddMore": true
