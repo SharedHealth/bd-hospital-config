@@ -79,9 +79,8 @@
                     "autocomplete" : true
                 },
                 "Immunization Incident Vaccine" : {
-                    "autocomplete" : true,
                     "required": true,
-                    "src": "self"
+                    "dropdown":true
                 },
                 "Immunization Incident Group": {
                     "allowAddMore": true
